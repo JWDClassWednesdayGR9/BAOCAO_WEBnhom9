@@ -35,7 +35,7 @@
           <div class="col-md-4">
           </div>
           <div class="col-md-4" style="padding: 20px 0px 0px 150px;">
-            <form  class="form-horizontal" role="form" id="frm1" name="frm1" onsubmit="return validateForm()">
+            <form  class="form-horizontal" role="form" id="frm1" name="frm1">
                       <select class="form-control input-md" style="text-align: center">
                         <option value=""> Chọn khoa</option>
                         <option value="1"> Công Nghệ Thông Tin</option>
