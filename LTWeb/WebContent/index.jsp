@@ -22,7 +22,7 @@
         <ul class="menu">
           <li>
           <a href="dangnhap.jsp">Đăng Nhập</a>
-          <a href="#">Thoát</a>
+       
           </li>
         </ul>
     </div>
