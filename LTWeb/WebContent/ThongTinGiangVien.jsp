@@ -1,0 +1,104 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<%@ page import="java.sql.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>HCMUTE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"  href="main.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="paneltop">
+    <div class="banner" align="center">
+      <img src="spkt_banner.jpg" alt="banner" height="130">
+    </div>
+    <div class="menutop">
+        <ul class="menu">
+          <li>
+          <a href="index.jsp">Thoát</a>
+          </li>
+        </ul>
+    </div>
+</div>
+  
+<div class="container">
+    <div class="row">
+      <div class="col-md-3" style="padding-left: 50px;padding-top: 10px">
+           <ul class="nav nav-pills nav-stacked" style="background-color: #DDDDDD">
+            <li role="presentation"><a href="TrangChu.jsp" target="_parent" >Trang chủ</a></li>
+            <li role="presentation"><a href="ThongtinKhoaLuan.jsp" target="_parent" >Thông tin khóa luận</a></li>
+            <li class="active"><a href="ThongTinGiangVien.jsp" target="_parent" >Thông tin giảng viên</a></li>
+            <li role="presentation"><a href="ThongtinHoiDong.jsp" target="_parent" >Thông tin hội đồng</a></li>
+            <li role="presentation"><a href="SapXepHoiDong.jsp" target="_parent" >Sắp xếp hội đồng</a></li>
+          </ul>
+      </div>
+      <div class="col-md-9">  
+          <div class="ttgv">
+              <div class="gvtitle" align="center" style="font-size: 20px"><label>Thông tin giảng viên</label>
+              </div>
+              <div>
+                  <table width="900" border="2" cellspacing="2" cellpadding="2">
+                    <tr bgcolor="lightblue" align="center">
+                      <th style="color: #0000FF;font: bold;font-size: 18px;text-align: center" width="178" scope="col">Tên giảng viên</th>
+                      <th style="color: #0000FF;font: bold;font-size: 18px;text-align: center" width="110" scope="col">Học vị</th>
+                      <th style="color: #0000FF;font: bold;font-size: 18px;text-align: center" width="210" scope="col">Đơn vị công tác</th>
+                      <th style="color: #0000FF;font: bold;font-size: 18px;text-align: center" width="176" scope="col">Chức vụ</th>
+                      <th style="color: #0000FF;font: bold;font-size: 18px;text-align: center" width="180" scope="col">Bộ môn giảng dạy</th>
+                    </tr>
+                  </table>
+              </div>
+              <div class="table" id="klTable" style="width:900px;height:200px;overflow:auto;" align="center">
+                    <table width="900" height="228" border="2" cellpadding="2" cellspacing="2">
+                      <tr>
+                        <td width="178">GV 1</td>
+                        <td width="110">Thạc sỹ</td>
+                        <td width="210">Khoa CNTT</td>
+                        <td width="176">Giảng viên</td>
+                        <td width="180">Bộ môn a</td>
+                      </tr>
+                      <tr>
+                        <td>GV 2</td>
+                        <td>Tiến sỹ</td>
+                        <td>Khoa CNTT</td>
+                        <td>Trưởng bộ môn A</td>
+                        <td>Bộ môn a</td>
+                      </tr>
+                      <tr>
+                        <td>GV 3</td>
+                        <td>PGS.Ts</td>
+                        <td>Khoa CNTT</td>
+                        <td>Trưởng bộ nôn B</td>
+                        <td>Bộ môn b</td>
+                      </tr>
+                      <tr>
+                        <td>GV 4</td>
+                        <td>GS.Ts</td>
+                        <td>Khoa CNTT</td>
+                        <td>Trưởng bộ môn C</td>
+                        <td>Bộ môn c</td>
+                      </tr>
+                      <tr>
+                        <td>GV 5</td>
+                        <td>Thạc sỹ</td>
+                        <td>Khoa CNTT</td>
+                        <td>Giảng viên</td>
+                        <td>Bộ môn e</td>
+                      </tr>
+                    </table>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+<div> <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K</p>
+      </div>
+    </footer></div>
+</body>
+</html>
