@@ -28,7 +28,7 @@
     </div>
 </div>
        
-<font ><marquee direction="left" style="background:white"><font color = “#3300FF”><big><font size = 5px>CHÀO MỪNG ĐẾN VỚI WEBSITE SẮP XẾP GIẢNG VIÊN CHO HỘI ĐỒNG BẢO VỆ KLTN- Made by K></big></marquee></font>
+<font ><marquee direction="left" style="background:white"><font color = “#3300FF”><big><font size = 5px>CHÀO MỪNG ĐẾN VỚI WEBSITE SẮP XẾP GIẢNG VIÊN CHO HỘI ĐỒNG BẢO VỆ KLTN- Developed by G9></big></marquee></font>
 <div class="footer" style="margin-top: 400px"> 	
 		<footer class="footer">
 		      <div class="container">
