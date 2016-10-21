@@ -60,28 +60,28 @@
                         <td width="190">Bộ môn 1</td>
                         <td width="130">30</td>
                         <td width="140">5</td>
-                        <td width="214">&nbsp;</td>
+                        <td width="214">  Đã sắp xếp;</td>
                       </tr>
                       <tr>
                         <td>Hội đồng 2</td>
                         <td>Bộ môn 2</td>
                         <td>30</td>
                         <td>7</td>
-                        <td>&nbsp;</td>
+                        <td>Đã sắp xếp;</td>
                       </tr>
                       <tr>
                         <td>Hội đồng 3</td>
                         <td>Bộ môn 3</td>
                         <td>30</td>
                         <td>5</td>
-                        <td>&nbsp;</td>
+                        <td>Đã sắp xếp;</td>
                       </tr>
                       <tr>
                         <td>Hội đồng 4</td>
                         <td>Bộ môn 4</td>
                         <td>30</td>
                         <td>6</td>
-                        <td>&nbsp;</td>
+                        <td>Đã sắp xếp;</td>
                       </tr>
                         <tr>
                         <td>Hội đồng 5</td>
