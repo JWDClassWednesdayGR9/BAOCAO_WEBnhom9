@@ -50,6 +50,7 @@
                   <option value="3">Hội đồng 3</option>
                   <option value="3">Hội đồng 4</option>
                   <option value="3">Hội đồng 5</option>
+		  <option value="3">Hội đồng 6</option>
                 </select>
           </div>
           <div class="dropdown">
@@ -58,15 +59,17 @@
                   <option value="1">Phòng 1</option>
                   <option value="2">Phòng 2</option>
                   <option value="3">Phòng 3</option>
+		  <option value="3">Phòng 4</option>
                 </select>
           </div>
            <div class="dropdown">
                 <select name="tg" class="dropdown-select">
                   <option value="">Chọn thời gian</option>
-                  <option value="1">7:30 </option>
-                  <option value="2">8:30 </option>
-                  <option value="3">9:30 </option>
-                  <option value="3">10:30 </option>
+                  <option value="1">7:00 </option>
+                  <option value="2">8:00 </option>
+                  <option value="3">9:00 </option>
+                  <option value="3">10:00 </option>
+		  <option value="3">13:00 </option>
                 </select>
           </div>
           <div style="border-style: solid;border-width: 2px;width: 250px; background-color: #DDDDDD;"> <a href="ChonGiangVien.jsp">Chọn giảng viên</a></div>
@@ -91,25 +94,25 @@
                     <td width="100">Hội đồng 1</td>
                     <td width="420">GV a - GV b - GV d</td>
                     <td width="80">1</td>
-                    <td width="100">7:30 </td>
+                    <td width="100">7:00 </td>
                   </tr>
                   <tr>
                     <td>Hội đồng 2</td>
                     <td>GV d - GV c - GV e</td>
                     <td>1</td>
-                    <td>8:30 </td>
+                    <td>8:00 </td>
                   </tr>
                   <tr>
                     <td>Hội đồng 3</td>
                     <td>GV d - GV c - GV e</td>
                     <td>2</td>
-                    <td>9:30 </td>
+                    <td>9:00 </td>
                   </tr>
                   <tr>
                     <td>Hội đồng 4</td>
                     <td>GV d - GV g - GV h</td>
                     <td>3</td>
-                    <td>10:30</td>
+                    <td>10:00</td>
                   </tr>
 
                 </table>
@@ -119,7 +122,7 @@
 </div>
 <div> <footer class="footer">
       <div class="container" >
-        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K</p>
+        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM </p>
       </div>
     </footer>
 </div>
