@@ -122,7 +122,7 @@
 </div>
 <div> <footer class="footer">
       <div class="container" >
-        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM </p>
+        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM - Phat trien boi K </p>
       </div>
     </footer>
 </div>
