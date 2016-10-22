@@ -89,4 +89,4 @@
 <div class="bottommenu">
         <div class="info_ver"><a href="#">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K </a></div></div>
 </body>
-</html>>
+</html>
