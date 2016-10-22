@@ -2,7 +2,7 @@
 	pageEncoding="utf-8"%>
 <%@ page import="java.sql.*"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html lang="">
 <head>
   <title>HCMUTE</title>
   <meta charset="utf-8">
@@ -13,6 +13,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+
 <div class="paneltop">
     <div class="banner" align="center">
       <img src="spkt_banner.jpg" alt="banner" height="130" align="center">
@@ -20,8 +21,10 @@
     <div class="menutop">
         <ul class="menu">
           <li>
-
           <a href="index.jsp">Thoát</a>
+          </li>
+          <li>
+          <a href="doimatkhau.jsp">Đổi mật khẩu</a>
           </li>
         </ul>
     </div>
@@ -31,10 +34,10 @@
     <div class="row">
       <div class="col-md-3" style="padding-left: 50px;padding-top: 10px">
            <ul class="nav nav-pills nav-stacked" style="background-color: #DDDDDD">
-            <li class="active"><a href="TrangChu.jsp" target="_parent" >Trang chủ</a></li>
-            <li role="presentation"><a href="ThongtinKhoaLuan.jsp" target="_parent" >Thông tin khóa luận</a></li>
+            <li class="active"><a href="trangchu.jsp" target="_parent" >Trang chủ</a></li>
+            <li role="presentation"><a href="ThongTinKhoaLuan.jsp" target="_parent" >Thông tin khóa luận</a></li>
             <li role="presentation"><a href="ThongTinGiangVien.jsp" target="_parent" >Thông tin giảng viên</a></li>
-            <li role="presentation"><a href="ThongtinHoiDong.jsp" target="_parent" >Thông tin hội đồng</a></li>
+            <li role="presentation"><a href="ThongTinHoiDong.jsp" target="_parent" >Thông tin hội đồng</a></li>
             <li role="presentation"><a href="SapXepHoiDong.jsp" target="_parent" >Sắp xếp hội đồng</a></li>
           </ul>
       </div>
@@ -83,12 +86,7 @@
       </div>
     </div>
 </div>
-<div>
-<footer class="footer">
-      <div class="container">
-        <p class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K</p>
-      </div>
-    </footer> 
-</div>
+<div class="bottommenu">
+        <div class="info_ver"><a href="#">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K </a></div></div>
 </body>
-</html>
+</html>>
