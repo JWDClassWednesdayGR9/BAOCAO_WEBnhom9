@@ -36,24 +36,28 @@
           </div>
           <div class="col-md-4" style="padding: 20px 0px 0px 150px;">
             <form  class="form-horizontal" role="form" id="frm1" name="frm1">
-                      <select class="form-control input-md" style="text-align: center">
+                      <select class="form-control input-md">
                         <option value=""> Chọn khoa</option>
                         <option value="1"> Công Nghệ Thông Tin</option>
                         <option value="2"> Xây Dựng</option>
                         <option value="3"> Điện - Điện Tử</option>
                       </select>
-                      <div class="form-group " style="padding-top: 10px">
-                      	<span class="help-block">Nhập tên đăng nhập</span>
-                        <input class="form-control input-md" type="text" name="taikhoan" class="form-control" id="name" placeholder="tên đăng nhập" onchange="myFunction()">           
+                      <div class="form-group" style="padding-top: 10px">
+                        <input type="email" class="form-control" id="name" placeholder="tên đăng nhập">
+                        <span class="help-block">Nhập tên đăng nhập</span>
                       </div>
                       <div class="form-group">
-                      	<span class="help-block">Nhập mật khẩu</span>
-                        <input class="form-control input-md" type="password" class="form-control" id="passwd" placeholder="mật khẩu"name="password">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="mật khẩu">
+                        <span class="help-block">Nhập mật khẩu</span>
                       </div>
-                      <div class="form-inline" style="text-align: center;">
-                        <a href="TrangChu.jsp" type="submit" id="okbtn" value="Submit" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
+                      <div class="checkbox">
+                          <label>
+                              <input type="checkbox"> Ghi Nhớ Mật Khẩu
+                           </label>
+                      </div>
+                        <a href="TrangChu.jsp" type="button" id="okbtn" onclick="myFunction()" value="Submit" class="btn btn-primary btn-sm" style="background-color: blue">OK</a>
                         <a href="index.jsp" type="button" class="btn btn-primary btn-sm" style="background-color: blue">Cancel</a>
-           			  </div>
+
             </form>
             </div>  
             <div class="col-md-4">
