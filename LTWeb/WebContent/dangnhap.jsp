@@ -14,14 +14,14 @@
 </head>
 <body>
 
-<div class="paneltop">
+<div class="panel panel-default">
     <div class="banner" align="center">
       <img src="spkt_banner.jpg" alt="banner" height="130">
     </div>
     <div class="menutop">
         <ul class="menu">
           <li>
-          <a href="dang nhap.jsp">Đăng Nhập</a>
+          <a href="dangnhap.jsp">Đăng Nhập</a>
           <a href="index.jsp">Thoát</a>
           </li>
         </ul>
@@ -29,49 +29,48 @@
 </div>
   
 <div class="container">
-    <div class="row">
-      <div class="col-md-3" style="padding-left: 50px;padding-top: 10px">
-          
-      </div>
-      <div class="col-md-9">
+        <div class="row">
           <div class="col-md-4">
           </div>
-          <div class="col-md-4" style="padding-top: 20px">
-            <form id="frm1" >
-                      <select class="form-control input-md">
+          <div class="col-md-4" style="padding: 10px 0px 0px 150px">
+            <form  class="form-horizontal" role="form" id="frm1" name="frm1">
+                      <select class="form-control input-md" style="text-align: center">
                         <option value=""> Chọn khoa</option>
                         <option value="1"> Công Nghệ Thông Tin</option>
                         <option value="2"> Xây Dựng</option>
                         <option value="3"> Điện - Điện Tử</option>
                       </select>
-                      <div class="form-group" style="padding-top: 10px">
-                        <input type="email" class="form-control" id="name" placeholder="tên đăng nhập">
+                      <div class="form-group" style="margin: 10px 0px 0px 0px">
                         <span class="help-block">Nhập tên đăng nhập</span>
+                        <input class="form-control input-md" type="text" name="taikhoan" id="tk" placeholder="tên đăng nhập">           
                       </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="mật khẩu">
+                      <div class="form-group" style="margin: 10px 0px 0px 0px">
                         <span class="help-block">Nhập mật khẩu</span>
+                        <input class="form-control input-md" type="password" name="password" id="mk" placeholder="mật khẩu">
                       </div>
                       <div class="checkbox">
-                          <label>
-                              <input type="checkbox"> Ghi Nhớ Mật Khẩu
-                           </label>
+                        <label>
+                            <input type="checkbox"> Ghi Nhớ Mật Khẩu
+                          </label>
                       </div>
-                        <a href="TrangChu.jsp" type="button" id="okbtn" onclick="myFunction()" value="Submit" class="btn btn-primary btn-sm" style="background-color: blue">OK</a>
-                        <a href="index.jsp" type="button" class="btn btn-primary btn-sm" style="background-color: blue">Cancel</a>
-
+                      <div style="text-align: center; margin: 10px 0px 0px 0px;">
+                        <a href="TrangChu.jsp" type="submit" id="okbtn" onclick="validateText()" value="Submit" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
+                        <a href="index.jsp" type="button" class="btn btn-primary btn-sm" style="background-color: blue;margin-left: 20px">Cancel</a>
+                      </div>
             </form>
-            </div>        
-      </div>
-    </div>
+            </div>  
+            <div class="col-md-4">
+            </div>  
+          </div>    
 </div>
-<div class="bottommenu">
-        <div class="info_ver"><a href="#">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K </a>
-        </div>
-</div>
+      <footer class="footer">
+          <div class="container" >
+            <p style="color: blue" class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K</p>
+          </div>
+      </footer>  
       <script>
       function validateText(id) {
-           if($("#"+id).val()=null || $("#"+id).val()=="")
+           if($("tk"+id).val()=null || $("mk"+id).val()=="")
            {
              var div = $("#"+id).closest("div");
              div.addClass("has-error");
@@ -91,7 +90,7 @@
           {
             $("okbtn").click(function())
             {
-              if(!validateText("name"))
+              if(!validateText("tk"))
                 return false;
             }
           }
