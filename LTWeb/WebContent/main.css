@@ -10,6 +10,15 @@ body{
 	height: 30px;
 	background-color: #DDDDDD;
 }
+#form
+{
+    min-height:400px;
+
+}
+.menutop ul li
+{
+ display: inline;
+}
 .container{
 	width:100%;
 	float:left;
@@ -20,7 +29,7 @@ body{
 	width: 100%;
 	float: left;
 	clear: both;
-	height: 420px;
+	height: 430px;
 }
 .menu{
 	float: right;
@@ -57,11 +66,19 @@ ul.menubar li{
 
 .bottommenu {
 	width:100%;
-	float:left ;
+	float:left;
 	background-color:#DDDDDD;
 	clear: both;
 }
-
+.info_ver{
+margin:0px 0px 0px 50px;
+}
+.info_ver a{
+float:left;
+font:12px Arial, Helvetica, sans-serif;
+color:#333;
+line-height:40px;
+}
 .dropdown {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -138,12 +155,3 @@ ul.menubar li{
     font-size: 20px;
 }
 
-
-.marquee
-{
-	color:red;
-}
-.href
-{
-	background-color: blue;
-}
