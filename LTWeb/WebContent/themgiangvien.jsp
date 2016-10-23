@@ -27,7 +27,6 @@
 	<form action="" method="">
 	<table width="420" border="3" cellpadding="10" align="center" style="color: black">
 	<tr>
-
 		<th style="color: blue" colspan="2" >Thêm Giảng Viên</th>
 	</tr>
 	<tr>
