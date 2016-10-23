@@ -54,7 +54,7 @@
                           </label>
                       </div>
                       <div style="text-align: center; margin: 10px 0px 0px 0px;">
-                        <a href="trangchu.html" type="button" id="okbtn" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
+                        <a href="TrangChu.jsp" type="button" id="okbtn" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
                         <a href="index.jsp" type="button" class="btn btn-primary btn-sm" style="background-color: blue;margin-left: 20px">Cancel</a>
                       </div>
             </form>
