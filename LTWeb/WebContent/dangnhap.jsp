@@ -33,7 +33,7 @@
           <div class="col-md-4">
           </div>
           <div class="col-md-4" style="padding: 10px 0px 0px 150px">
-            <form  class="form-horizontal" role="form" id="frm1" name="frm1">
+            <form  class="form-horizontal" role="form" id="frm1" name="frm1" method="post">
                       <select class="form-control input-md" style="text-align: center">
                         <option value=""> Chọn khoa</option>
                         <option value="1"> Công Nghệ Thông Tin</option>
@@ -54,7 +54,7 @@
                           </label>
                       </div>
                       <div style="text-align: center; margin: 10px 0px 0px 0px;">
-                        <a href="TrangChu.jsp" type="submit" id="okbtn" onclick="validateText()" value="Submit" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
+                        <a href="trangchu.html" type="button" id="okbtn" class="btn btn-primary btn-sm" style="background-color: blue;" >OK</a>
                         <a href="index.jsp" type="button" class="btn btn-primary btn-sm" style="background-color: blue;margin-left: 20px">Cancel</a>
                       </div>
             </form>
@@ -68,34 +68,44 @@
             <p style="color: blue" class="text-muted">Ban Quyen (C) 2016 TRUONG DAI HOC SU PHAM KY THUAT HCM  - Phat trien boi K</p>
           </div>
       </footer>  
-      <script>
-      function validateText(id) {
-           if($("tk"+id).val()=null || $("mk"+id).val()=="")
-           {
-             var div = $("#"+id).closest("div");
-             div.addClass("has-error");
-             return false;
-           }
-           else
-           {
-             var div = $("#"+id).closest("div");
-             div.removeClass("has-error");
-             div.addClass("has-feedback");
-             div.append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
-             return true;
-           }
-      }
-      $(document).ready(
-          function()
-          {
-            $("okbtn").click(function())
+<script>
+        function validateText(id) {
+             if ($("#"+id).val() == null || $("#"+id).val() == "")
+             {
+               var div = $("#"+id).closest("div");
+               div.removeClass("has-success");
+               $("#glypcn"+id).remove();
+               div.addClass("has-error has-feedback")
+               div.append('<span id="glypcn'+id+'" class="glyphicon glyphicon-remove form-control-feedback"></span>');
+               return false;
+             }
+             else
+             {
+               var div = $("#"+id).closest("div");
+               div.removeClass("has-error");
+               div.addClass("has-success has-feedback");
+               $("#glypcn"+id).remove();
+               div.append('<span id="glypcn'+id+'" class="glyphicon glyphicon-ok form-control-feedback"></span>');
+               return true;
+             }
+
+        }
+        $(document).ready(
+            function()
             {
-              if(!validateText("tk"))
-                return false;
+              $("#okbtn").click(function()
+              {
+                if(!validateText("tk"))
+                {
+                  return false;
+                }
+                if(!validateText("mk"))
+                {
+                  return false;
+                }
+              });
             }
-          }
-        )
-      
-      </script>
+          )
+</script>
 </body>
 </html>
