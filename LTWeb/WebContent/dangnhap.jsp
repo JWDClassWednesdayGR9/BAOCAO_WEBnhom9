@@ -39,7 +39,26 @@
                         <option value="1"> Công Nghệ Thông Tin</option>
                         <option value="2"> Xây Dựng</option>
                         <option value="3"> Điện - Điện Tử</option>
+			<option value="4"> Công Nghệ May</option>
                       </select>
+		      <tr>
+                      <td align="center" colspan="1">
+                        <table cellpadding="0" cellspacing="0" class="loginmodule_table_Bottom_dl" width="100%">
+                            <tr class="loginmodule_header_dl">
+                                <td style="height: 20px">
+                                    <input id="rbtnStudent" type="radio" name="100" value="rbtnStudent" checked="checked" /><label for="rbtnStudent">Sinh Viên</label>
+                                </td>
+                                <td style="height: 20px">
+                                    <input id="rbtnTruongKhoa" type="radio" name="100" value="rbtnTruongKhoa" /><label for="rbtnTruongKhoa">Trưởng Khoa</label>
+                               	</td>
+                                <td style="height: 20px">
+                                    <input id="rbtnProfessor" type="radio" name="100" value="rbtnProfessor" /><label for="rbtnProfessor">Giảng Viên</label></td>
+                                <td style="height: 20px">
+                                    <input id="rbtnAdmin" type="radio" name="100" value="rbtnAdmin" /><label for="rbtnAdmin">QT Viên</label></td>
+                            </tr>
+                        </table>
+                      </td>
+                      </tr>
                       <div class="form-group" style="margin: 10px 0px 0px 0px">
                         <span class="help-block">Nhập tên đăng nhập</span>
                         <input class="form-control input-md" type="text" name="taikhoan" id="tk" placeholder="tên đăng nhập">           
