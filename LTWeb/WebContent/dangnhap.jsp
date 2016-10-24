@@ -8,9 +8,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css"  href="main.css">
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
 </head>
 <body>
 
@@ -21,7 +26,6 @@
     <div class="menutop">
         <ul class="menu">
           <li>
-          <a href="dangnhap.jsp">Đăng Nhập</a>
           <a href="index.jsp">Thoát</a>
           </li>
         </ul>
@@ -39,25 +43,25 @@
                         <option value="1"> Công Nghệ Thông Tin</option>
                         <option value="2"> Xây Dựng</option>
                         <option value="3"> Điện - Điện Tử</option>
-			<option value="4"> Công Nghệ May</option>
+						<option value="4"> Công Nghệ May</option>
                       </select>
-		      <tr>
-                      <td align="center" colspan="1">
-                        <table cellpadding="0" cellspacing="0" class="loginmodule_table_Bottom_dl" width="100%">
-                            <tr class="loginmodule_header_dl">
-                                <td style="height: 20px">
-                                    <input id="rbtnStudent" type="radio" name="100" value="rbtnStudent" checked="checked" /><label for="rbtnStudent">Sinh Viên</label>
-                                </td>
-                                <td style="height: 20px">
-                                    <input id="rbtnTruongKhoa" type="radio" name="100" value="rbtnTruongKhoa" /><label for="rbtnTruongKhoa">Trưởng Khoa</label>
-                               	</td>
-                                <td style="height: 20px">
-                                    <input id="rbtnProfessor" type="radio" name="100" value="rbtnProfessor" /><label for="rbtnProfessor">Giảng Viên</label></td>
-                                <td style="height: 20px">
-                                    <input id="rbtnAdmin" type="radio" name="100" value="rbtnAdmin" /><label for="rbtnAdmin">QT Viên</label></td>
-                            </tr>
-                        </table>
-                      </td>
+		      		  <tr>
+	                      <td align="center" colspan="1">
+	                        <table cellpadding="0" cellspacing="0" class="loginmodule_table_Bottom_dl" width="100%">
+	                            <tr class="loginmodule_header_dl">
+	                                <td style="height: 20px">
+	                                    <input id="rbtnStudent" type="radio" name="100" value="rbtnStudent" checked="checked" /><label for="rbtnStudent">Sinh Viên</label>
+	                                </td>
+	                                <td style="height: 20px">
+	                                    <input id="rbtnTruongKhoa" type="radio" name="100" value="rbtnTruongKhoa" /><label for="rbtnTruongKhoa">Trưởng Khoa</label>
+	                               	</td>
+	                                <td style="height: 20px">
+	                                    <input id="rbtnProfessor" type="radio" name="100" value="rbtnProfessor" /><label for="rbtnProfessor">Giảng Viên</label></td>
+	                                <td style="height: 20px">
+	                                    <input id="rbtnAdmin" type="radio" name="100" value="rbtnAdmin" /><label for="rbtnAdmin">QT Viên</label></td>
+	                            </tr>
+	                        </table>
+	                      </td>
                       </tr>
                       <div class="form-group" style="margin: 10px 0px 0px 0px">
                         <span class="help-block">Nhập tên đăng nhập</span>
