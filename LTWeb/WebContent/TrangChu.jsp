@@ -38,7 +38,7 @@
       <div class="col-md-3" style="padding-left: 50px;padding-top: 10px">
            <ul class="nav nav-pills nav-stacked" style="background-color: #DDDDDD">
             <li class="active"><a href="trangchu.jsp" target="_parent" >Trang chủ</a></li>
-            <li role="presentation"><a href="ThongTinKhoaLuan.jsp" target="_parent" >Thông tin khóa luận</a></li>
+            <li role="presentation"><a href="ThongtinKhoaLuan.jsp" target="_parent" >Thông tin khóa luận</a></li>
             <li role="presentation"><a href="ThongTinGiangVien.jsp" target="_parent" >Thông tin giảng viên</a></li>
             <li role="presentation"><a href="ThongTinHoiDong.jsp" target="_parent" >Thông tin hội đồng</a></li>
             <li role="presentation"><a href="SapXepHoiDong.jsp" target="_parent" >Sắp xếp hội đồng</a></li>
