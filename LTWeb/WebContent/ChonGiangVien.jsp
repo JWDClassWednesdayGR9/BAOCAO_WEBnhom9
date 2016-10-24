@@ -26,7 +26,7 @@
     <div class="menutop">
         <ul class="menu">
           <li>
-          <a href="dangnhap.jsp">Đăng Nhập</a>
+          <a href="doimatkhau.jsp">Đổi mật khẩu</a>
           <a href="index.jsp">Thoát</a>
           </li>
         </ul>
