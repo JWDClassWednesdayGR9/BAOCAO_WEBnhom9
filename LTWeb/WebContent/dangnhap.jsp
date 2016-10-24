@@ -26,7 +26,7 @@
     <div class="menutop">
         <ul class="menu">
           <li>
-          <a href="index.jsp">Thoát</a>
+          <a href="index.jsp">Trở về</a>
           </li>
         </ul>
     </div>
