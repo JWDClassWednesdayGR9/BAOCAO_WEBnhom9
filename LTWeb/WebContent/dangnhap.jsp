@@ -38,13 +38,6 @@
           </div>
           <div class="col-md-4" style="padding: 10px 0px 0px 150px">
             <form class="form-horizontal" role="form" id="frm1" name="frm1">
-                      <select class="form-control input-md" id="khoa" style="text-align: center">
-                        <option value=""> Chọn khoa</option>
-                        <option value="1"> Công Nghệ Thông Tin</option>
-                        <option value="2"> Xây Dựng</option>
-                        <option value="3"> Điện - Điện Tử</option>
-						<option value="4"> Công Nghệ May</option>
-                      </select>
 		      		  <tr>
 	                      <td align="center" colspan="1">
 	                        <table id="sd" cellpadding="0" cellspacing="0" class="loginmodule_table_Bottom_dl" width="100%">
@@ -120,12 +113,7 @@
             {
               $("#okbtn").click(function()
               {
-            	var flag=true;
-                if(!validateText("khoa"))
-                {
-                	 flag=false;
-                    return false;
-                }           
+            	var flag=true;          
                 if(!validateText("tk"))
                 {
                 	 flag=false;
